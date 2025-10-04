@@ -1,0 +1,12 @@
+do_token     = "dop_v1_xxx..."
+project_name = "saas-demo"
+region       = "fra1"
+vpc_cidr     = "10.30.0.0/16"
+cluster_name = "saas-doks"
+node_size    = "s-2vcpu-4gb"
+min_nodes    = 2
+max_nodes    = 4
+# After pushing your image, set:
+# app_image    = "ghcr.io/<your-user>/saas-hitapp:1.0.0"
+app_replicas = 2
+app_cpu_target = 60
